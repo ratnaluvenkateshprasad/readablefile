@@ -1,0 +1,50 @@
+1-_fun0: for(var _fun0_ip = 0; ; ) switch(_fun0_ip) {
+2-case 0:
+3-    __BUNDLE_START_TIME__ = undefined;
+4-    __DEV__ = undefined;
+5:    process = undefined;
+6-    __METRO_GLOBAL_PREFIX__ = undefined;
+7-    r4 = this;
+8-    r0 = global;
+9-    r1 = r0.globalThis;
+10-    r1 = r1.nativePerformanceNow;
+--
+21-case 70:
+22-    r0['__BUNDLE_START_TIME__'] = r1;
+23-    r1 = false;
+24-    r0['__DEV__'] = r1;
+25-    r1 = r0.globalThis;
+26:    r1 = r1.process;
+27-    if(r1) { _fun0_ip = 100; continue _fun0 }
+28-case 98:
+29-    r1 = {};
+30-case 100:
+31:    r0['process'] = r1;
+32-    r1 = '';
+33-    r0['__METRO_GLOBAL_PREFIX__'] = r1;
+34:    r2 = r0.process;
+35:    r1 = r0.process;
+36-    r1 = r1.env;
+37-    if(r1) { _fun0_ip = 137; continue _fun0 }
+38-case 135:
+39-    r1 = {};
+40-case 137:
+41-    r2['env'] = r1;
+42:    r1 = r0.process;
+43-    r2 = r1.env;
+44:    r1 = r0.process;
+45-    r1 = r1.env;
+46-    r1 = r1.NODE_ENV;
+47-    if(r1) { _fun0_ip = 178; continue _fun0 }
+48-case 174:
+49-    r1 = 'production';
+--
+16759-            r2 = r1.self;
+16760-            if(!(r2 === r0)) { _fun606_ip = 36; continue _fun606 }
+16761-case 30:
+16762-            r1['self'] = r1;
+16763-case 36:
+16764:            r2 = r1.process;
+16765-            if(r2) { _fun606_ip = 46; continue _fun606 }
+16766-case 44:
+16767-            r2 = {};
